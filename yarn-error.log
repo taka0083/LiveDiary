@@ -1,0 +1,37 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add --dev webpack-dev-server
+
+PATH: 
+  /home/vagrant/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/bin:/home/vagrant/.rbenv/versions/2.5.7/bin:/home/vagrant/.rbenv/libexec:/home/vagrant/.rbenv/plugins/ruby-build/bin:/home/vagrant/.rbenv/shims:/home/vagrant/.rbenv/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/vagrant/.local/bin:/home/vagrant/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
+
+npm manifest: 
+  {
+    "name": "livediary",
+    "private": true,
+    "dependencies": {
+      "@rails/ujs": "^6.0.0",
+      "turbolinks": "^5.2.0",
+      "@rails/activestorage": "^6.0.0",
+      "@rails/actioncable": "^6.0.0"
+    },
+    "version": "0.1.0"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
